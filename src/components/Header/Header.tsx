@@ -1,6 +1,5 @@
 import React from 'react';
 import HeaderBanner from './HeaderBanner';
-import logo from '@/assets/images/logo.png';
 import SelectCurrency from './SelectCurrency';
 import HeaderSocial from './HeaderSocial';
 import Connect from './Connect';

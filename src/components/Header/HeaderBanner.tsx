@@ -1,5 +1,4 @@
 import React from 'react';
-import banner from '@/assets/images/banner-top.jpg';
 import Image from 'next/image';
 
 export default function HeaderBanner() {

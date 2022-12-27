@@ -1,20 +1,18 @@
-import React from 'react'
-import { AiFillStar, AiOutlineStar } from 'react-icons/ai'
-import { BsTrash } from 'react-icons/bs'
+import React from 'react';
+import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
+import { BsTrash } from 'react-icons/bs';
 
-type Props = {}
-
-export default function Result({}: Props) {
+export default function Result() {
   return (
-    <div className='mt-4 font-normal p-4'>
-      <p className='text-right text-gradient text-sm'>
+    <div className="mt-4 font-normal p-4">
+      <p className="text-right text-gradient text-sm">
         <button>Restore Hidden</button>
       </p>
-      <p className='flex justify-between text-gradient text-sm mt-1'>
+      <p className="flex justify-between text-gradient text-sm mt-1">
         <button>Track another wallet</button>
         <button>Load new tokens</button>
       </p>
-      <table className='result-table'>
+      <table className="result-table">
         <thead>
           <tr>
             <th>Tokens</th>
@@ -26,7 +24,7 @@ export default function Result({}: Props) {
           <tr>
             <td>
               <p>
-                WBNB <span className='text-green-500 text-sm'>$246.6555</span>
+                WBNB <span className="text-green-500 text-sm">$246.6555</span>
               </p>
               <p>WBNB</p>
             </td>
@@ -35,8 +33,8 @@ export default function Result({}: Props) {
               <p>$0.00</p>
             </td>
             <td>
-              <button className='hover:text-yellow-500'>
-                <AiFillStar className='text-yellow-500' />
+              <button className="hover:text-yellow-500">
+                <AiFillStar className="text-yellow-500" />
                 {/* <AiOutlineStar /> */}
               </button>
               <button>
@@ -47,5 +45,5 @@ export default function Result({}: Props) {
         </tbody>
       </table>
     </div>
-  )
+  );
 }

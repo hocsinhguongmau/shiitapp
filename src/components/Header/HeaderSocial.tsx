@@ -4,9 +4,7 @@ import { FaTelegramPlane } from 'react-icons/fa';
 import Link from 'next/link';
 import Image from 'next/image';
 
-type Props = {};
-
-export default function HeaderSocial({}: Props) {
+export default function HeaderSocial() {
   return (
     <ul className="flex gap-[10px] mt-4 md:mt-0 justify-center md:justify-start">
       <li>

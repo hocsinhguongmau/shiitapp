@@ -5,6 +5,9 @@ module.exports = {
     node: true,
   },
   extends: ['eslint:recommended', 'plugin:react/recommended'],
+  eslintConfig: {
+    extends: 'next',
+  },
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',

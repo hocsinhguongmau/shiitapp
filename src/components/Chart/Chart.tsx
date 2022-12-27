@@ -1,9 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-type Props = {};
-
-export default function Chart({}: Props) {
+export default function Chart() {
   return (
     <div className="mt-5">
       <Image

@@ -1,11 +1,9 @@
-import React from 'react'
-import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
+import React from 'react';
+import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 
-type Props = {}
-
-export default function MainBottom({}: Props) {
+export default function MainBottom() {
   return (
-    <Tabs className='token-list'>
+    <Tabs className="token-list">
       <TabList>
         <Tab>Token Tx</Tab>
         <Tab>Wallet Tx</Tab>
@@ -13,7 +11,7 @@ export default function MainBottom({}: Props) {
         <Tab>Sellers</Tab>
       </TabList>
       <TabPanel>
-        <table className='token-table'>
+        <table className="token-table">
           <thead>
             <tr>
               <th>Tokens</th>
@@ -163,5 +161,5 @@ export default function MainBottom({}: Props) {
         <h2>Any content 4</h2>
       </TabPanel>
     </Tabs>
-  )
+  );
 }
